@@ -1,0 +1,29 @@
+hosts:
+- - name1
+  - admins_ids:
+    - 12121234
+    - 2555666
+    - 6666666
+    - 11111111
+    urls_to_monitoring:
+    - - http://example.com/ex1.html
+      - 6
+    - - http://example.com/ex2.html
+      - null
+- - name2
+  - admins_ids:
+    - 111111111
+    - 22222222
+    - 233331212
+    - 444444444
+    urls_to_monitoring:
+    - - http://example2.com/ex1.html
+      - 7
+    - - http://example2.com/ex2.html
+      - null
+
+db_path:
+   ./monitoring2.sqlite3
+
+telegram_api_key:
+  abcbfhjdfksjfjsdfyudsfjhjsadjksahdhsajdgsadsaydgsadjgsadgsagdjasd
